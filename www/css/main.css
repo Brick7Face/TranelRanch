@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  width: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
@@ -26,7 +27,7 @@ body, html {
 }
 
 .image2 {
-  background-image: url("../images/landscape1.JPG");
+  background-image: url("../images/landscape12.JPG");
 }
 
 .image3 {
@@ -90,18 +91,11 @@ body, html {
   color: #000;
 }
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
-
 .border {
 	background-color:transparent;
-	font-size:25px;
+	font-size:30px;
 	color: #f7f7f7;
+	letter-spacing: 10px;
 }
 
 h3 {
@@ -121,6 +115,20 @@ h3 {
 
 #footer {
 	width: 100%;
-	height: 50px;
-	background-color: #777;
+	height: 200px;
+	background-color: #282E34;
+}
+
+.box3 {
+	color:#ddd;
+	background-color:#282E34;
+	text-align:center;
+	padding:25px 40px;
+	text-align: justify;
+}
+
+#contact {
+	margin: 0;
+	padding: 0;
+	color: #ddd;
 }
